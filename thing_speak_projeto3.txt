@@ -1,0 +1,52 @@
+Criar conta em:
+https://thingspeak.com
+
+Criar Canal 
+New Channel
+Nome:
+Campos: temperatura, distância, etc
+
+Acompanhar canal
+Meus Canais -> canal criado
+
+
+Documentation (rodapé da página) -> https://thingspeak.com/channels/366125/edit
+-> Get a Channel Feed -> JSON -> abrir  https://api.thingspeak.com/channels/9/feeds.json?results=2
+Abrir no naveagador:
+https://api.thingspeak.com/channels/9/feeds.json?results=2
+Trocar 9 pelo id do canal criado, por exemplo:  
+Teste1
+ID do canal: 366125
+Author: silviarcr
+Access: Private
+
+https://api.thingspeak.com/channels/366125/feeds.json?results=2
+-1
+
+Id Canal Charles
+https://api.thingspeak.com/channels/366136/feeds.json?results=2
+ {
+"channel": {
+"id": 366136,
+"name": "Canal Senai",
+"latitude": "0.0",
+"longitude": "0.0",
+"field1": "iluminacao",
+"field2": "temperatura",
+"field3": "distancia",
+"created_at": "2017-11-16T21:46:17Z",
+"updated_at": "2017-11-16T21:55:28Z",
+"last_entry_id": null
+},
+"feeds": []
+}
+
+Para ler no formato acima, instalar extensão Chrome JASON Formatter
+
+No IDE, configurar canal e usar chave de escrita do canal criado
+Y1Q5K43SS25R0SH1
+
+Temboo
+
+
+ 
